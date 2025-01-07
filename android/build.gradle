@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 31
-    namespace 'com.card.carditin'
+    namespace 'com.teamapt.monnify_flutter_sdk_plus'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -51,6 +51,5 @@ android {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-
     implementation 'com.monnify.android-sdk:monnify-android-sdk:1.1.2'
 }
