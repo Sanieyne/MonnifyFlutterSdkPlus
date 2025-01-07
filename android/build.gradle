@@ -6,6 +6,7 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' } // Add JitPack repository here
     }
 
     dependencies {
@@ -18,6 +19,7 @@ rootProject.allprojects {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' } // Add JitPack repository here
     }
 }
 
@@ -52,4 +54,5 @@ android {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.monnify.android-sdk:monnify-android-sdk:1.1.2'
+    implementation 'com.github.NaikSoftware:StompProtocolAndroid:1.6.6' // Add the dependency here
 }
